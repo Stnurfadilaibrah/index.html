@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Profil Saya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="buku_tamu.html">Buku Tamu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pengalaman">Pengalaman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#teman">Teman Dekat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foto">Foto Kegiatan</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di Profil Saya</h1>
+            <p class="lead">Kenali lebih lanjut tentang diri saya dan pengalaman saya selama kuliah.</p>
+            <button onclick="tampilkanPesan()" class="btn btn-light btn-lg">Mulai Jelajah</button>
+        </div>
+    </div>
+    <section id="tentang" class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="mb-4">Pengenalan Diri</h2>
+                <p><b>Nama:</b> St.Nurfadila Ibrah</p>
+                <p><b>NIM:</b> 230209502007</p>
+                <p><b>Kelas:</b> PTIK_F</p>
+                <p><b>Alamat:</b> <del>Jeneponto</del>, Makassar</p>
+                <p><b>Asal Sekolah:</b> Sekolah Anda</p>
+                <p><b>Universitas:</b> Universitas Negeri Makassar</p>
+                <p class="font-italic"><b>Siapa pun bisa jadi apa pun, asal jangan jadi tuhan!</b></p>
+            </div>
+            <div class="col-lg-6">
+                <img src="kegiatan.jpeg" class="img-fluid rounded" alt="Foto Kegiatan Saya">
+            </div>
+        </div>
+    </section>
+    <section id="pengalaman" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Pengalaman Selama Kuliah</h2>
+            <p>Saya telah belajar banyak hal selama mengikuti perkuliahan di PTIK. Pengalaman saya termasuk mempelajari berbagai mata kuliah yang membantu saya meningkatkan kemampuan teknis dan juga soft skills. Selain itu, saya juga mendapatkan kesempatan untuk bertemu banyak teman baru dan dosen yang sangat berpengaruh.</p>
+            <p>Pengalaman berharga lainnya adalah terlibat dalam berbagai proyek kelompok, di mana saya belajar tentang kerja tim dan manajemen waktu. Semua ini membantu saya menjadi pribadi yang lebih disiplin dan terorganisir.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Pemrograman Web</h5>
+                            <p class="card-text">Mata kuliah yang mengajarkan tentang pengembangan web menggunakan berbagai bahasa pemrograman seperti HTML, CSS, dan JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Basis Data</h5>
+                            <p class="card-text">Memahami cara merancang dan mengelola basis data untuk kebutuhan aplikasi skala besar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Algoritma dan Struktur Data</h5>
+                            <p class="card-text">Mempelajari logika pemrograman dan cara menyusun data dengan cara yang efisien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="teman" class="container py-5">
+        <h2 class="mb-4">Teman Dekat</h2>
+        <table class="table table-hover table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Lengkap</th>
+                    <th>Panggilan</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Alamat</th>
+                    <th>Asal Sekolah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rifky Muhahajji</td>
+                    <td>Rifky</td>
+                    <td>Laki-Laki</td>
+                    <td>Mamuju</td>
+                    <td>SMKN 1 Rangas Mamuju</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Haerul Amri Syam</td>
+                    <td>Amri</td>
+                    <td>Laki-Laki</td>
+                    <td>Bantaeng</td>
+                    <td>SMAN 1 Bantaeng</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Haikal</td>
+                    <td>Haikal</td>
+                    <td>Laki-Laki</td>
+                    <td>Jeneponto</td>
+                    <td>SMAN 6 Jeneponto</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Stelani Yunianti</td>
+                    <td>Stelani</td>
+                    <td>Perempuan</td>
+                    <td>Medan</td>
+                    <td>SMK 1 Karossa</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="foto" class="bg-light py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Foto Kegiatan</h2>
+            <img src="kegiatan.jpeg" class="img-fluid rounded" alt="Foto Kegiatan Saya">
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 St.Nurfadila Ibrah | Universitas Negeri Makassar</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    function tampilkanPesan() {
+        alert("Halo, selamat datang di halaman saya!");
+    }
+</script>
+</html>
